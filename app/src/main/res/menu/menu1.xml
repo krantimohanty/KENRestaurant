@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/text_book_table"
+        android:title="Book a table"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/text_bacon_and_mushroom_burger"
+        android:title="Order Food Item"
+        app:showAsAction="never">
+    </item>
+</menu>

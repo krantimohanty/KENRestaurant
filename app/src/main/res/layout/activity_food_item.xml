@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    xml:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:id="@+id/scrollView2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+<android.support.v7.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:elevation="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_s"
+                    android:src="@drawable/food1"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_bacon_and_mushroom_burger"
+                    android:text="Bacon and Mushrooms"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_cost"
+        android:text="Rs 150"
+        android:paddingLeft="185dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="-3dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="35dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_image"
+                android:src="@drawable/food2"
+                android:layout_marginTop="10dp"
+                android:paddingTop="0dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_spaghetti_and_meatballs"
+                android:text="Spaghetti and Meatballs"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="-5dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_cost2"
+        android:text="Rs 175"
+        android:paddingLeft="190dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:elevation="5dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_3"
+                android:src="@drawable/food1"
+                android:paddingTop="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_cheesy_pizza"
+                android:text="Cheezy Deluxe Pizza"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_cost3"
+        android:text="Rs 150"
+        android:paddingLeft="185dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-7dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_6"
+                android:src="@drawable/food2"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_fried_chicken_sampler"
+                android:text="Fried Chicken Sampler"
+                android:paddingTop="2dp"
+                android:paddingLeft="-1dp"
+                android:paddingRight="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_cost4"
+        android:text="Rs 280"
+        android:paddingTop="5dp"
+        android:paddingLeft="180dp"
+        android:layout_marginTop="60dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image7"
+                    android:src="@drawable/food1"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_"
+                    android:text="Spicy Mushroom Tikka"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="-1dp"
+                    android:paddingRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+                </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_cost5"
+        android:text="Rs 185"
+        android:paddingTop="5dp"
+        android:paddingLeft="180dp"
+        android:layout_marginTop="60dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+    </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+      </ScrollView>
+      </LinearLayout>
+
+
+
+

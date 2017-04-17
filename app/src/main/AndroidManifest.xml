@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kencloud.kenrestaurant.users">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="KENRestaurant"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.kencloud.kenrestaurant.users.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kencloud.kenrestaurant.users.MainActivity"
+            android:label="KENRestaurant"/>
+        <activity android:name="com.kencloud.kenrestaurant.users.FeedActivity"
+            android:label="KENRestaurant"/>
+        <activity android:name="com.kencloud.kenrestaurant.users.Food_ItemActivity"
+            android:label="KENRestaurant"/>
+        <activity android:name="com.kencloud.kenrestaurant.users.TableBookingActivity"
+            android:label="KENRestaurant"/>
+        <activity android:name="com.kencloud.kenrestaurant.users.LoginActivity"
+            android:label="KENRestaurant"/>
+        <activity android:name="com.kencloud.kenrestaurant.users.CollectionActivity"
+            android:label="KENRestaurant"/>
+     </application>
+    </manifest>
